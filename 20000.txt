@@ -1,0 +1,486 @@
+20501	(18+46)/2
+20502	James, Betty, Herb, Jill, Bob
+20503	System.out.println("Hello, world");
+20504	public static void main (String[] args){System.out.println("Hello, world");}
+20505	System.out.println("Turing, Alan");
+20506	public static void main (String[]args){System.out.println("Gershwin, George");}
+20507	System.out.println(count);
+20508	System.out.println(fraction);
+20509	System.out.println("i="+i+" f="+f);
+20510	int populationChange;
+20511	double x;
+20512	int cardsInHand = 13;
+20513	double temperature = 98.6;
+20514	double precise = 1.09388641;
+20515	public class Hello{public static void main (String[] args){System.out.println("Hello, world");}}
+20516	File myFile;
+20517	Menu myMenu;
+20518	Integer myInt = new Integer(75);
+20519	0
+20520	12000000000L
+20521	0xf
+20522	final int MONTHS_IN_YEAR = 12;
+20523	final int MONTHS_IN_DECADE = MONTHS_IN_YEAR * 10;
+20524	int degreesCelsius;
+20525	short patientsAge;
+20526	long grossNationalProduct;
+20527	int profitStartOfQuarter, cashFlowEndOfYear;
+20528	int monthOfYear = 11; long companyRevenue = 5666777888999L; int firstClassTicketPrice = 6000; long totalPopulation = 111222333444L;
+20529	verbalScore + mathScore
+20530	taxablePurchases + taxFreePurchases
+20531	endingTime - startingTime
+20532	fullAdmissionPrice - discountAmount
+20533	pricePerCase * 12
+20534	costOfBusRental / maxBusRiders
+20535	principal % divisor
+20536	( 12 + 40 ) / 2
+20537	( exam1 + exam2 ) / 2
+20538	0
+20539	1.5
+20540	3.14159
+20541	float price;
+20542	double netWeight;
+20543	double length = 3.5; double width = 1.55;
+20544	total1 + total2
+20545	salesSummer - salesSpring
+20546	totalWeight - weightOfBox
+20547	totalWeight / quantity
+20548	price * totalNumber
+20549	false
+20550	true
+20551	boolean isACustomer;
+20552	x == 0
+20553	profits == losses
+20554	c != ' '
+20555	index > lastIndex
+20556	hoursWorked > 40
+20557	x >= y
+20558	numberOfMen >= numberOfWomen
+20559	average < 60.0
+20560	grossPay < 10000
+20561	x >= 0 && y < 0
+20562	x >= 0 || y < 0
+20563	isEmpty == true || numberOfCredits == 3
+20564	isEmpty == false && numberOfCredits > 2
+20565	( isEmpty == false ) && ( numberOfCredits == 3 || numberOfCredits == 1 )
+20566	'A'
+20567	','
+20568	'1'
+20569	65
+20571	char c;
+20572	( double) distance / speed
+20573	sendSignal();
+20574	sendNumber(5);
+20575	sendVariable(x);
+20576	sendTwo(15.955, 133);
+20577	sendObject(John_Doe);
+20578	myAC.turnOn();
+20579	myAC.turnOff();
+20580	myAC.setTemp(72);
+20581	currentTemp = myAC.getTemp();
+20582	status = myAC.isOn();
+20583	officeAC = new AirConditioner(); officeAC.turnOn();
+20584	officeAC = new AirConditioner(); officeAC.turnOn(); officeAC.setTemp(69);
+20585	myInt = new Integer(1);
+20586	myLong = new Long(2000000000);
+20587	myDouble = new Double(1.5);
+20588	Double myDouble2 = new Double(x); myDouble = myDouble2;
+20589	String myString2 = new String(); myString = myString2;
+20590	myFile = new File("input.dat");
+20591	drivingAge = 17;
+20592	newRecord = oldRecord;
+20593	gradAge = matricAge + 4;
+20594	bridgePlayers = bridgePlayers + 4;
+20595	profits = profits * 10;
+20596	strawsOnCamel ++;
+20597	timer --;
+20598	s.compareTo("end") == 0
+20599	s1.compareTo(s2) > 0
+20600	( lastName.compareTo("Dexter") > 0 )
+20601	!s.equals("end")
+20602	if (name1.compareTo(name2) > 0 ) first = name1; else first = name2;
+20603	if ( name1.compareTo(name2) > 0 ) max = name1; else max = name2; if (name3.compareTo(max) > 0 ) max = name3;
+20604	public String max (String x, String y){String max = " "; if ( ( x.compareTo(y) > 0 ) && ( x.compareTo(y) > 0 ) ) {max = x;} else if ( (y.compareTo(x) > 0 ) && ( y.compareTo(x) > 0 ) ) { max = y; } return max; }
+20605	public String min (String x, String y, String z) { String min = " "; if ((x.compareTo(y)<0) && (x.compareTo(z)<0)) { min=x;} else if ((y.compareTo(z)<0) && (y.compareTo(x)<0)) { min=y; } else if ((z.compareTo(x)<0) && (z.compareTo(y)<0)) { min=z; } return min; }
+20606	Scanner input = new Scanner (System.in); datum = input.nextInt();
+20608	x > y
+20609	workedOvertime == true
+20610   (temperature > 90 && humidity < 10)
+20611   (yearsWithCompany < 5 && department != 99)
+20612   (age < 19 || isFullTimeStudent)
+20613   (! isAMember)
+20614   if (temperature > 98.6) fever = true;
+20615   if (goodsSold > 500000) bonus = 10000;
+20616   if (outsideTemperature > 90) shelfLife -= 4;
+20617   if (workedOvertime == true) pay *= 1.5;
+20618   if (age >= 65 ) seniorCitizens += 1; else nonSeniors += 1;
+20619   if (soldYesterday > soldToday){salesTrend = -1;} else if (soldYesterday <= soldToday){salesTrend = 1;}
+20620   if (temperature > 98.6) fever = true; else fever = false;
+20621   if (age < 18) minors += 1; else if (age >= 65) seniors += 1; else adults += 1;
+20622   if (pH < 7){neutral = 0; base = 0; acid = 1;} else if (pH > 7) {neutral = 0; base = 1; acid = 0;} else {neutral = 1; base = 0; acid = 0;}
+20623   switch (response){case 'y': System.out.println("Your request is being processed"); break; case 'n': System.out.println("Thank you anyway for your consideration"); break; case 'h': System.out.println("Sorry, no help is currently available"); break; default: System.out.println("Invalid entry; please try again");}
+20624   (x >= 5 ? x : -x )
+20625   (x < y ? y : x)
+20626   public class Simple{}
+20627   class Day{}     class Night{}
+20628   public class Clock {private int hours;}
+20629   Clock.java      public class Clock{private int hours; private boolean isTicking;}
+20630   Clock.java      public class Clock {private int hours = 12;private boolean isTicking = true;private Integer diff = 5;}
+20631   public class Clock {private int hours = 12;private boolean isTicking;private Integer diff;}
+20632   public class Clock {private int hours = 12;private boolean isTicking = true;private Integer diff = 5;}
+20633   Clock () {hours = 12;}
+20635   Clock(int h, boolean b, int d) {hours = h;isTicking = b;diff = new Integer(d);}
+20636   Clock(Clock c) {hours = c.hours;isTicking = c.isTicking;}
+20637   Clock.java      public class Clock{private int hours;private boolean isTicking;private Integer diff;public Clock (int hours, boolean isTicking, int diff){this.hours = hours;this.isTicking = isTicking;this.diff = new Integer (diff);}}
+20638   Telephone.java      public class Telephone {private String number;private static int quantity;}
+20639   public class Telephone {private String number;private static int quantity = 250;private static double total = 1565.92;}
+20640   public class Telephone {public static void printNumber(String s) {System.out.print(s);}}
+20641   public class Telephone {public static String getFullNumber(String a) {return ("718-" + a);}}
+20642   public class Telephone {private String number;private static int quantity;private static double total;public static String makeFullNumber(String a, int b) {return (b + "-" + a);}}
+20643	printTodaysDate();
+20644	printErrorDescription(14);
+20645	printLarger(sales1, sales2);
+20646	eurasiaSales = add(euroSales, asiaSales);
+20647	cubeVolume = toThePowerOf (cubeSide, 3);
+20648	max (population1, population2)
+20649	max(max(population1,population2),max(population3,population4))
+20650	printArray(inventory);
+20651	void printDottedLine(){System.out.println(".....");}
+20652	void printGrade(char grade){ System.out.println("Grade: " + grade);}
+20653	void printAttitude (int pint){if (pint == 1){System.out.print("disagree");}if (pint == 2){System.out.print("no opinion");}if (pint == 3){System.out.println("agree");}else {System.out.println("");}}
+20654	public void printLarger (int a, int b){System.out.println(Math.max(a, b));}
+20655	public int twice (int t){return 2*t;}
+20656	public int add(int a, int b){ return a + b;}
+20657	public void dashedLine (int a){ if (a>0){int i; for (i=1;i<=a;i=i+1){System.out.print("-");} System.out.println("");}}
+20658	public double powerTo (double a, int b){double answer = 0;while ( b >= 0){answer = Math.pow(a, (double)b);return answer;}return 0;}
+20659	void printArray(int a[]) {int i;for (i = 0; i < a.length; i++){System.out.print(a[i]);System.out.println();}}
+20660	if(x<y){if(x<z){min=x;} else{min=z;}} else {if(y<z){min=y;} else{min=z;}}
+20661	public int min (int a, int b){return Math.min(a,b);}
+20662	int sumArray(int a[]){int i, total = 0; for(i=0; i<a.length; i++)total+=a[i]; return total;}
+20663	boolean isReverse(int a[], int b[]){int k; for(k=0; k<a.length && a[k] == b[a.length-1-k]; k++); return k == a.length;}
+20664	public void reverse(int[] a){for(int i=0; i<a.length/2; i++) {int temp = a[i]; a[i]=a[a.length-i-1]; a[a.length-i-1]=temp;}}
+20665	numberOfPrizes % numberOfParticipants == 0
+20666	widthOfBox % widthOfBook != 0
+20667	x%2 == 0
+20668	itemp=i;jtemp=j;i=jtemp;j=itemp;
+20669	temp=i;i=j;j=temp;
+20670	int x; x = firstPlaceWinner; firstPlaceWinner = secondPlaceWinner; secondPlaceWinner = x;
+20671	double x; x = bestValue; bestValue = secondBestValue; secondBestValue = x;
+20672	int x = 0; x = arr[i]; arr[i] = arr[j]; arr[j] = x;
+20673	if (onOffSwitch == true) onOffSwitch = false; else onOffSwitch = true;
+20674	for (k=1;k<=97;k++){System.out.print("*");} System.out.print("\n");
+20675	for(j=0;j<n;j++){System.out.print("*");}System.out.print("\n");
+20676	total=0; for(k=1;k<=50;k++) total=total+(k*k);
+20677	total=0;for(k=n;k>=0;k--) total=total+(k*k*k);
+20678	k=0; while(k<88){System.out.print("*");k=k+1;}System.out.print("\n");
+20679	while(n!=0){System.out.print("*");n=n-1;}
+20680	total=0; for(k=1;k<=50;k++) total+=k*k;
+20681	total=0;for(k=0;k<=n;k++)total+=Math.pow(k,3);
+20682	k=0;do{System.out.print("*"); k++;} while(k<53);System.out.println();
+20683	while(n>0){System.out.print("*");n--;}
+20684	total=0;for(k=1;k<=50;k++)total+=k*k;
+20685	k=0;total=0;while(k<=n){total=total+(k*k*k);k++;}
+20688	for(i=1;i<=n;i++){for(j=1;j<=i;j++) System.out.print("*"); System.out.println();}
+20689	total=total+amount;
+20690	int[] scores = new int[25];
+20691	char[] streetAddress = new char[80];
+20692	int[] a = {10,20,30,40,50,60,70,80,90,100};
+20693	double[] taxRates = {0.10,0.15,0.21,0.28,0.31};
+20694	int[] denominations = {1,5,10,25,50,100};
+20695	a[0]
+20696	a[33]
+20697	x=arr[arr.length-2];
+20698	System.out.print(monthSales[9]); System.out.println();
+20699	a[0]=3;
+20700	salarySteps[0] = 30000;
+20701	salarySteps[4] = 160000;
+20702	a[0] += 10;
+20703	a[k] = 15;
+20704	a[k-1] = 22;
+20705	a[a.length - 1] = -1;
+20706	a[k+1] = 9;
+20707	a[k-1] = 22;
+20708	a[j] = 2*a[j+1];
+20709	a[0] = 2*a[a.length - 1];
+20710	k=0; total=0; while(k<temps.length){total=total+temps[k]; k++;} avgTemp=total/temps.length;
+20711	a[a.length-1-i]
+20712	for (k=0;k<a.length/2;k++){temp=a[k]; a[k]=a[a.length-1-k]; a[a.length-1-k]=temp;}
+20713	for(k=0,isAMember=false; k<currentMembers.length && !isAMember; isAMember=(currentMembers[k++]==memberID));
+20714	duplicates=false; for(k=0;k<zipcodeList.length-1;k++){if(zipcodeList[k]==zipcodeList[k+1])duplicates=true;}
+20716	for(numberOfIncompletes=0,k=0;k<incompletes.length;k++) if (incompletes[k]==studentID) numberOfIncompletes++;
+20717	if(x>y) max=x; else max=y;
+20718	public int max (int a, int b, int c){ return Math.max(a,Math.max(b, c));}
+20719	mostTickets=0; k=0; while(k<parkingTickets.length){if(mostTickets<parkingTickets[k]) mostTickets=parkingTickets[k];k++;}
+20724   Exception e;
+20725   public class Counter{private int counter = 0;public void increment(){counter++;}public int getValue(){return counter;}}
+20726   public class Counter{private int counter;public Counter (int counter){this.counter = counter;}public void increment (){counter++;}public void decrement (){counter--;}public int getValue (){return counter;}}
+20727   public class Counter{private int counter;private int limit;public Counter (int number1, int number2){counter = number1;limit = number2;}public void increment(){if (counter < limit)counter ++;}public void decrement(){if (counter > 0)counter --;}public int getValue(){return counter;}}
+20728   public class Counter {private int counter;private int limit;private static int nCounters = 0;public Counter(int a, int b) {counter = a; limit = b; nCounters++;}public void increment() {if(counter < limit)counter += 1;}public void decrement() {if(counter > 0)counter -= 1;}public int getValue() {return counter;}public static int getNCounters() {return nCounters;}}
+20729   public class Counter {private int counter;private int counterID;private static int nCounters = 0;public Counter(int a) {counter = a;counterID = ++nCounters;}public void increment() {counter += 1;}public void decrement() {counter -= 1;}public int getValue() {return counter; }public int getCounterID() {return counterID;}}
+20730   Acc1.java   public class Acc1{}
+20731   public class Acc2{private int sum = 0;public int getSum(){return sum;}}
+20732   public class Accumulator{private int sum = 0;public int getSum(){return sum;}public void add(int number){sum += number;}}
+20733   public class Accumulator{private int sum;public Accumulator (int sum){this.sum = sum;}public int getSum(){return sum;}public void add (int value){sum += value;}}
+20734   public class Averager{private int sum = 0;private int count = 0;public int getSum(){ return sum;}public void add(int in){ sum = sum + in; count ++;}public int getCount(){return count;}public double getAverage(){return (double)sum/count;}}
+20735   public class GasTank{private double amount = 0;public void addGas (double value){amount += value;}public void useGas (double value){amount -= value;}public double getGasLevel (){return amount;}}
+20736   public class GasTank {private double amount = 0;public void addGas(double x) {amount += x;}public void useGas(double y) {amount -= y;if (amount < 0){amount = 0;}}public boolean isEmpty(){if (amount < 0.1){return true;}else{return false;}}public double getGasLevel(){return amount;}}
+20737   public class GasTank {private double amount = 0;private double capacity;public GasTank(double x) {capacity = x;}public void addGas(double a){amount += a; if(amount > capacity){amount = capacity;}}public void useGas(double b) {amount -= b;if(amount < 0) amount = 0;}public boolean isEmpty(){if(amount < 0.1) return true; else return false;}public boolean isFull(){if(amount > capacity - 0.1) return true; else return false;}public double getGasLevel() {return amount;}}
+20738   public class GasTank {private double amount = 0;private double capacity;public GasTank(double x) {capacity = x;}public void addGas(double a){amount += a;if(amount > capacity)amount = capacity;}public void useGas(double b) {amount -= b;if(amount < 0) amount = 0;}public boolean isEmpty(){if(amount < 0.1) return true; else return false;}public boolean isFull(){if(amount > capacity - 0.1) return true; else return false;}public double getGasLevel() {return amount;}public double fillUp() {double difference = capacity-amount;amount = capacity;return difference;}}
+20739   public class Book{private String title;private String author;public Book (String title, String author){this.title = title;this.author = author;}public String toString(){return title+ "\n" + author;}}
+20740   public class Book{private String title;private String author;private String tableOfContents = "";private int nextPage = 1;public Book (String a , String b){this.title = a;this.author = b;}public void addChapter (String chapterTitle, int number){tableOfContents += "\n" + chapterTitle + "..." + nextPage;nextPage += number;}public int getPages(){return nextPage-1;}public String getTableOfContents(){return tableOfContents;}public String toString(){return title + "\n" + author;}}
+20741   public class ParkingMeter{private int timeLeft = 0;public boolean add (int x){if (x == 25){timeLeft += 30;return true;}else{return false;}}public void tick(){if (timeLeft > 0)timeLeft--;}public boolean isExpired(){if (timeLeft == 0)return true;else return false;}}
+20742   public class ParkingMeter{private int timeLeft = 0 ;private int maxTime;public ParkingMeter(int x) {this.maxTime=x;}public boolean add (int y){if ((y == 25) && (timeLeft < maxTime)) {timeLeft += 30; return true;}else return false;}public void tick() {if (timeLeft > 0)timeLeft--;}public boolean isExpired(){if (timeLeft==0) return true; else return false;}}
+20744   public class Player{private String name = "";private int score = 0;public void setName(String nm){name = nm;}public void setScore(int sc){score = sc;}public String getName(){return name;}public int getScore(){return score;}}
+20745   public class ContestResult{private String winner = "";private String secondPlace = "";private String thirdPlace = "";public void setWinner(String win){winner = win;}public void setSecondPlace(String second){secondPlace = second;}public void setThirdPlace(String third){thirdPlace = third;}public String getWinner(){return winner;}public String getSecondPlace(){return secondPlace;}public String getThirdPlace(){return thirdPlace;}}
+20746   public class PlayListEntry{private String title = "";private String artist = "";private int playCount = 0;public void setTitle(String theTitle){title = theTitle;}public void setArtist(String theArtist){artist = theArtist;}public void setPlayCount(int thePlayCount){playCount = thePlayCount;}public String getTitle(){return title;}public String getArtist(){return artist;}public int getPlayCount(){return playCount;}}
+20747   public class WeatherForecast{private String skies = "";private int high = 0;private int low = 0;public void setSkies(String theSkies){skies = theSkies;}public void setHigh(int theHigh){high = theHigh;}public void setLow(int theLow){low = theLow;}public String getSkies(){return skies;}public int getHigh(){return high;}public int getLow(){return low;}}
+20748   public class CheckingAccount extends BankAccount{ private boolean overdraft;public CheckingAccount(String s, boolean b){super(s);overdraft = b;} public boolean hasOverdraft(){return overdraft;} public boolean clearCheck(double d){if(d < getBalance() || overdraft) {withdraw(d);return true;} else return false;}}
+20750   public class CalculatorWithMemory extends Calculator { private double memory = 0; public void save() {memory = accumulator;} public void recall() {accumulator = memory;} public void clearMemory() {memory = 0;} public double getMemory() {return memory;}}
+20751   public class LawSchool extends EducationalInstitution {public LawSchool(){super(3);}public String graduationRequirements(){return super.graduationRequirements() + " and passing the bar";}}
+20752   public class HighSchoolStudent extends Student {public HighSchoolStudent(String school){super(school);} public String toString(){return "high school " + super.toString();}}
+20755   abstract interface PointingDevice {public abstract int getXCoord();public abstract int getYCoord();public abstract boolean attentionRequired();public abstract double setResolution(double a);}
+20756	if((n%2==0 && n>2)||(n<=0)) possibleCandidate=false; else possibleCandidate=true;
+20758	avg=(double)(num1+num2+num3)/3;
+20759	String[] week = {"mon", "tue", "wed", "thu", "fri", "sat", "sun"};
+20760   public class Value{private boolean modified = false;private int val;public Value(int theVal){val = theVal;}public int getVal(){return val;}public void setVal(int theVal){val = theVal;modified = true;}public boolean wasModified(){return modified;}}
+20762	public static void main(String[] args) { if(args.length==1){displayHelp();} else if (args.length<4){argsError(args.length);} else {processArgs(args);}}
+20763   try{i=Integer.parseInt(s);} catch(NumberFormatException e){i=-1;}
+20765	hasEmpty=false; int k=0; for (k=0;k<names.length;k++){if ((names[k]==null)||(names[k].equals(""))) hasEmpty=true;}
+20766	public static int[] merge(int[] A, int[] B) {int result[] = new int[A.length+B.length]; int iA = 0; int iB = 0; int iAB = 0; while(iA < A.length || iB < B.length){ if(iB >= B.length || (iA < A.length && A[iA] < B[iB])) result[iAB++] = A[iA++]; else result[iAB++] = B[iB++]; } return result;}
+20767	int a, b; for (a=0; a<arr.length/2; a++){b=arr[a]; arr[a]=arr[arr.length-1-a]; arr[arr.length-1-a]=b;}
+20768	(x1<x2?x2:x1)-(y1<y2?y1:y2)
+20769	int a=0; a=pos1; pos1=pos2; pos2=pos3; pos3=pos4; pos4=a;
+20770	int digit = 0; if(n<9) primeSecond=false; else{digit=n; while(digit>99){digit=digit/10;} digit=digit%10; if (digit==2||digit==3||digit==5||digit==7){primeSecond=true;}else{primeSecond=false;}}
+20772   public class Value {private boolean modified = false;private int val;public Value() {}public Value(int newVal) {val = newVal;}public int getVal() {if(val != 0) return val; else return 0;}public void setVal(int newVal) {val = newVal;modified = true;}public boolean wasModified() {return modified;}}
+20774   public class ReadWrite extends ReadOnly { private boolean modified; public ReadWrite(int arg) {super(arg);modified = false;}public void setVal(int arg) {val = arg;modified = true;} public boolean isDirty() {return modified;}}
+20775	public static String[] getBigWords(String sentence){ int totalbigWords, currentWordStart, currentWordEnd, pointer; totalbigWords = currentWordStart = currentWordEnd = pointer = 0; while ((pointer != sentence.length() - 1) && (!sentence.isEmpty())){if(Character.isLetter(sentence.charAt(pointer))){currentWordStart = pointer;while ((Character.isLetter(sentence.charAt(pointer))) && (pointer < sentence.length() - 1)){pointer++;} currentWordEnd = pointer; if (currentWordEnd == sentence.length() - 1) currentWordEnd++; if (currentWordEnd == 0) currentWordEnd++; if (currentWordEnd - currentWordStart > 5){ totalbigWords++; currentWordStart = currentWordEnd = pointer;}} else pointer++;} String[] bigWords = new String[totalbigWords]; totalbigWords = currentWordStart = currentWordEnd = pointer = 0; while (pointer < sentence.length() - 1){ if(Character.isLetter(sentence.charAt(pointer))){currentWordStart = pointer;while ((Character.isLetter(sentence.charAt(pointer))) && (pointer < sentence.length() - 1 )){ pointer++;} currentWordEnd = pointer;if (currentWordEnd == 0) currentWordEnd++;if (currentWordEnd == sentence.length() - 1) currentWordEnd++;if (currentWordEnd - currentWordStart > 5){bigWords[totalbigWords] = sentence.substring(currentWordStart, currentWordEnd); totalbigWords++; currentWordStart = currentWordEnd = pointer;}} else pointer++; }return bigWords;}
+20790   try {AutoFactory.shutdown();} catch (ProductionInProgressException e) {AutoFactory.reset();}
+20792	total=0; int counter=0; while(counter<x.length){total=total+x[counter];counter++;}
+20795	int[][] tictactoe=new int [3][3];
+20800   new Exception ("out of oil")
+20807   "!!!!!"
+20808   "a"
+20809   ""
+20810	str.charAt(0)
+20812   String title;
+20813   String win;String place;String show;
+20814   String foreground = "black";
+20815   String background = "white", selectionColor = "blue";
+20816   foreground = "red";
+20817   text = "";
+20818	"CRAZY!\n\\\t\\\\\\\\\\n. . . .\\ \\\r\007'\\'\"TOOMUCH!".length()
+20819	sentence.length()
+20820   "http://" + address
+20821   prefix + suffix
+20822	name.charAt(0)
+20828	name.charAt(4)
+20840	public String makeSubjectLine(String text) { return "Subject: " + text; }
+20841	public static String getEmailUserName (String email){ String emailUsername= email.substring(0, email.indexOf('@')); return emailUsername;}
+20842	String getEmailDomain(String str) {int ind=str.indexOf("@"); return str.substring(ind+1, str.length());}
+20843	public String makeEmailAddress(String a, String b) { return a + "@" + b;}
+20844	public String getFirstLine (String a){return a.substring(0, a.indexOf("\n"));}
+20845	public String getSecondLine (String a) {return a.split("\n").length>1 ? a.split("\n")[1] : ""; }
+20846	public static boolean isEmailAddress(String s) { int space=0,dot=0,atTheRate=0; int i; for(i=0;i<s.length();i++) { if(s.charAt(i)==' ')space++; if(s.charAt(i)=='.')dot++; if(s.charAt(i)=='@')atTheRate++; } if(space==0 && dot>=1 && atTheRate==1)return true; else return false; }
+20847   firstName + " " + middleName + " " + lastName
+20848   gold + "\n" + silver + "\n" + bronze
+20852	long fact (int n) {if(n<=1) return 1; else return (fact (n-1) * (long) n);}
+20853	boolean equals (int x, int y) {if ( (x<0) || (y<0)) return false; if ( (x==0)&&(y==0)) return true; return equals(x - 1, y - 1);}
+20854	public int sum(int n) {if (n==1)return 1; else return (sum(n-1) +n);}
+20855	int power(int x,int n){ if(n==1) return x; if(n==0) return 1; return power(x, n-1) * x; }
+20856	int fib(int number) {if(number == 0){return 0;}if (number == 1 || number == 2) {return 1;}return fib(number - 1) + fib(number - 2);}
+20857	public int len(String sentence){if (sentence.isEmpty()) return 0;else return (1 + len(sentence.substring(1,sentence.length())));}
+20858	public boolean containsVowel(String sentence){ if (sentence.isEmpty()) return false; if (sentence.charAt(0) == 'a' || sentence.charAt(0) == 'e' || sentence.charAt(0) == 'i' || sentence.charAt(0) == 'o' || sentence.charAt(0) == 'u' || sentence.charAt(0) == 'A' || sentence.charAt(0) == 'E' || sentence.charAt(0) == 'I' || sentence.charAt(0) == 'O' || sentence.charAt(0) == 'U') return true; else return containsVowel(sentence.substring(1,sentence.length())); }
+20859	public String replace(String sentence){ if(sentence.isEmpty()) return sentence; if(sentence.charAt(0) == ' ') return '*' + replace(sentence.substring(1,sentence.length())); else return sentence.charAt(0) + replace(sentence.substring(1,sentence.length())); }
+20860	String reverse(String word){String temp = ""; if(word.length() >= 1){temp = word.substring(word.length()-1, word.length()); temp += reverse(word.substring(0, word.length()-1));}return temp;}
+20861	public static boolean isPalindrome(String s){if(s.length() == 0 || s.length() == 1) return true; if(s.charAt(0) == s.charAt(s.length()-1)) return isPalindrome(s.substring(1, s.length()-1)); return false;}
+20862	public void clear(int[] numbers, int x){if (x == 0) return; else{ numbers[numbers.length - x] = 0; x--; clear(numbers, x); } }
+20863	public static int sum( int[] arr, int len ){ if( len == 0 ) return 0; else return arr[len-1] + sum( arr, len-1 ); }
+20864	public boolean isPalindrome(int[] a, int start, int end){ int length = end - start + 1; if (length == 0 || length == 1) { return true; } else if(a[start] != a[end]) { return false; } else return isPalindrome(a, start+1, end-1);}
+20865	public static int max(int[] array, int n){ if(n==1) return array[0]; else{ int local = max(array,n-1); if(array[n-1] > local) return array[n-1]; else return local;}}
+20866	void init(int array[],int length) { if(length==0) { return; } else { init(array,--length); array[length]=length;}}
+20867	public static int productOfOdds(int[] arr, int index){if (index == 1){if ((arr[index-1]%2) > 0) return arr[index-1]; else return 1; } else if((arr[index-1]%2) > 0 ) return (arr[index-1] * productOfOdds(arr, index-1)); else return productOfOdds(arr, index-1);}
+20868	public static boolean search(int arr[],int n, int m){if(n==0){return false;}if(arr[n-1]==m){return true;}n=n-1;return search(arr,n,m);}
+20869	void reverse(int a[],int start,int stop) {int temp;if(start==stop)return;else{if(stop>start){temp=a[start]; a[start]=a[stop]; a[stop]=temp; reverse(a,(start+1),(stop-1));}else return; }}
+20870	boolean isSorted(int[] a, int b) { if (b == 0 || b == 1) return true; if (a[b-1] < a[b-2]) return false; else return isSorted(a, b-1); }
+20871	sentence.length()-1
+20872	name.charAt(1)
+20873	sentence.charAt(sentence.length()-1)
+20874	word.substring(word.length() - 3, word.length())
+20875	address.indexOf("Avenue")
+20876	word.substring(0,3)
+20877	name.substring(0,1)
+20878	name.substring(1,2)
+20879	s.substring(2,10)
+20880	name.substring(name.length()-1,name.length())
+20881	given.charAt(0)+"."+middle.charAt(0)+"."+family.charAt(0)+"."
+20883	pos=line.indexOf(','); clause=line.substring(0,pos);
+20884	int start=sentence.indexOf(" ")+1; int end = sentence.indexOf(" ",start+1); secondWord=sentence.substring(start,end);
+20889	boolean hasPassedTest = true;
+20890	c == '\n'
+20891	c == ' '
+20892	c == '\t'
+20893	(c == ' ' || c == '\n' || c == '\t')
+20894	!(c == ' ' || c == '\n' || c == '\t')
+20895	x >= 'A' && x <= 'Z'
+20896	x >= 'a' && x <= 'z'
+20897	x >= '0' & x <= '9'
+20898	x >= 48 && x <= 55
+20899	((x >= 'A' && x <= 'Z') || (x >= 'a' && x <= 'z'))
+20901	((x >= '0') && (x <= '9')) || ((x >= 'a') && (x <= 'f')) || ((x >= 'A') && (x <= 'F'))
+20947   public class ICalculator1 extends ICalculator { public int sign() {if(super.getCurrentValue() == 0) return 0; else if (super.getCurrentValue() < 0) return -1; else return 1;}}
+20948   public class ICalculator2 extends ICalculator {public int negate() {currentValue = -currentValue; return currentValue;}}
+20949   public class ICalculator3 extends ICalculator {public int div(int x) {if (x!=0) return super.div(x); System.out.println("ZERO DIVIDE ATTEMPTED"); return getCurrentValue();}}
+20950   String oneSpace = " ";
+20952	name.charAt(name.length() - 1)
+20960	firstWord = sentence.split(" ")[0];
+20963   "(" + word + ")"
+20965	s.compareTo("mortgage") > 0 && s.compareTo("mortuary") < 0
+20967   val = stdin.nextInt();
+20968   name = stdin.next(); age = stdin.nextInt(); System.out.println("The age of " + name + " is " + age);
+20968   temperature = stdin.nextDouble();
+20969   firstWord = stdin.next();
+20971   name = stdin.next(); System.out.println("Greetings, " + name);
+20972   name = stdin.next(); System.out.print("Greetings, " + name + "!!!");
+20973   public class Q{public static void main(String[] args){System.out.println("Q");}}
+20974   String empty = "";
+20975   String mailingAddress;
+20977   System.out.println(message);
+20978   System.out.println("Today's Word-Of-The-Day is: " + word);
+20979   System.out.print(num + " " + cost + "\n");
+20980   System.out.println("first is " + first + " second = " + second);
+20981   (width1*length1)+(width2*length2)
+20982   small + large
+20983   (small+large)*(small+large)
+20984   (double) (tickets1+tickets2+tickets3)/(class1+class2+class3)
+20985	1.0 + (1.0/2.0) + (1.0/3.0) + (1.0/4.0) + (1.0/5.0) + (1.0/6.0) + (1.0/7.0) + (1.0/8.0)
+20986	hn + 1.0/(n+1)
+20987   (double) children / families
+20988	price / 100
+21040	tictactoe[0][0] == tictactoe[1][0] && tictactoe[1][0] == tictactoe[2][0]
+21041	tictactoe[0][0] == tictactoe[1][1] && tictactoe[1][1] == tictactoe[2][2]
+21042	tictactoe[2][0] == tictactoe[1][1] && tictactoe[1][1] == tictactoe[0][2]
+21043	(tictactoe[0][0] == tictactoe[0][1] && tictactoe[0][1] == tictactoe[0][2]) || (tictactoe[1][0] == tictactoe[1][1] && tictactoe[1][1] == tictactoe[1][2]) || (tictactoe[2][0] == tictactoe[2][1] && tictactoe[2][1] == tictactoe[2][2]) || (tictactoe[0][0] == tictactoe[1][0] && tictactoe[1][0] == tictactoe[2][0]) || (tictactoe[0][1] == tictactoe[1][1] && tictactoe[1][1] == tictactoe[2][1]) || (tictactoe[0][2] == tictactoe[1][2] && tictactoe[1][2] == tictactoe[2][2]) || (tictactoe[0][0] == tictactoe[1][1] && tictactoe[1][1] == tictactoe[2][2]) || (tictactoe[0][2] == tictactoe[1][1] && tictactoe[1][1] == tictactoe[2][0])
+21044	a2d[0].length
+21045	a2d[a2d.length-1].length
+21046	a2d.length
+21047	a2d[0].length + a2d[1].length + a2d[2].length + a2d[3].length
+21048	nElements = 0; for (int i=0;i<a2d.length;i++) for(int j =0; j<a2d[i].length;j++) nElements++;
+21049	isRectangular = true; for (int i=0; i<a2d.length && isRectangular; i++) if (a2d[i].length != a2d[0].length) isRectangular = false;
+21050	isSquare=true; for (int i=0; i<a2d.length; i++) {if (a2d.length != a2d[i].length) isSquare=false;}
+21094   protected String messageUponExiting;
+21095   TitledWindow tWindow = new TitledWindow("My Title"); System.out.println(tWindow.getWidth() + " " + tWindow.getHeight());
+21097   TitledWindow tWindow = new TitledWindow(50, 75, "Rectangular Window"); tWindow.widen(); tWindow.setHeight(tWindow.getWidth()); tWindow.setText("Square Window");
+21100   public abstract void onClicked ();
+21101   public abstract class DesktopComponent{public abstract void onClicked(); private String type; public DesktopComponent(String theType){type = theType;}}
+21103   abstract interface GUIComponent {public abstract void open(); public abstract boolean close();public abstract void resize(int width, int height);public abstract void move(int x, int y);}
+21104   public class Window implements GUIComponent {private int width, height, xPos = 0, yPos = 0; public Window(int a, int b) {width = a; height = b;} public boolean open() {System.out.print("Window opened\n"); return true;} public boolean close() {System.out.print("Window closed\n"); return true;} public void resize(int a, int b) {width = a; height = b;} public void move(int a, int b) {xPos = a; yPos = b;}}
+21109   public String toString() {return "A " + width + "x" + height + " window at (" + xPos + "," + yPos + ")";}
+21110   public boolean equals(Window window) {return width == window.width & height == window.height && xPos == window.xPos && yPos == window.yPos;}
+21112	sum = 0; for (int i=0; i < a2d.length; i++) for (int j=0; j < a2d[i].length; j++) sum += a2d[i][j];
+21113	nPositive = 0; for (int i=0; i<a2d.length;i++) for (int j=0; j<a2d[i].length; j++) if (a2d[i][j] > 0) nPositive++;
+21114	int n = 0; int p = 0; for (int i=0;i<a2d.length;i++) for (int j=0;j<a2d[i].length;j++){if (a2d[i][j]>0) p++; if (a2d[i][j]<0) n++;} if (n>p) isNegative=true; else isNegative=false;
+21115   public class AlphaChannelColor extends Color {private int alpha;public AlphaChannelColor(int r, int g, int b, int a) {super(r,g,b);alpha = a;}public int getAlpha(){return alpha;}}
+21116   AlphaChannelColor acc = new AlphaChannelColor(); System.out.println(acc.getRed() + " " + acc.getGreen() + " " + acc.getBlue());
+21117   public void dissolve() {setRed(getRed()+1);setGreen(getGreen()+1);setBlue(getBlue()+1);alpha++;}
+21118   public String getColorName() {return (alpha < 100 ? "opaque " : alpha < 200 ? "semi-transparent " : "transparent ") + (super.getColorName() != null ? super.getColorName() : "color");}
+21119   public String toString() {return "#(" + red + "," + green + "," + blue + ")";}
+21120   abstract interface AccessibleGUIAttribute { public abstract String getAlternativeText();}
+21122   public class SavingsAccount extends BankAccount {public SavingsAccount(double interestRate) {this.interestRate = interestRate;} private double interestRate;}
+21124   public class CameraPhone extends Phone{private int imageSize; private int memorySize; public CameraPhone (int imageSize, int memorySize) { this.imageSize = imageSize; this.memorySize = memorySize;} public int numPictures(){return memorySize * 1000 / imageSize;}}
+21125   public class ApartmentBuilding extends Building{ private int numFloors, unitsPerFloor; private boolean hasElevator, hasCentralAir; private String managingCompany; public ApartmentBuilding (int numFloors, int unitsPerFloor, boolean hasElevator, boolean hasCentralAir, String managingCompany){this.numFloors = numFloors; this.unitsPerFloor = unitsPerFloor; this.hasElevator = hasElevator; this.hasCentralAir = hasCentralAir; this.managingCompany = managingCompany;} public int getTotalUnits(){return unitsPerFloor * numFloors;} public boolean isLuxuryBuilding() {if (unitsPerFloor <= 2 && hasElevator && hasCentralAir) return true; else return false;}}
+21126   public SavingsAccount(String name, int socSecNum, double interestRate){ super(name, socSecNum); this.interestRate = interestRate;}
+21127   TitledWindow(int w, int h, String s, int i) { super(w, h); text = s; if (i > h / 2) i = h / 2; titleBarHeight = i;}
+21128   public MP3Phone(String phoneNumber, int memorySize, boolean playsAAC){ super(phoneNumber, true); this.memorySize = memorySize; this.playsAAC = playsAAC;}
+21129   public ApartmentBuilding(Address address, int squareFootage, int totalUnits) {super(address, squareFootage); this.totalUnits = totalUnits;}
+21130   public class OverdraftedAccount extends BankAccount {@Override public int getAvailable() { return super.getAvailable() + overdraftLimit - overdraftAmount;} private int overdraftLimit, overdraftAmount;}
+21131   @Override public int getClientAreaHeight() { return super.getClientAreaHeight() - 2 * borderSize;}
+21132   @Override public void clear() { super.clear(); album.clear(); }
+21133   @Override public int getRequiredEmptySpace() { return super.getRequiredEmptySpace() + (totalUnits * maxOccupantsPerUnit);}
+21134	DateManager.printTodaysDate();
+21135	dateManager.printTodaysDate();
+21136	DataTransmitter.sendSignal();
+21137	dataTransmitter.sendSignal();
+21139	dataTransmitter.sendObject(john_doe);
+21140	DataTransmitter.sendNumber(5);
+21141	dataTransmitter.sendNumber(5);
+21142	DataTransmitter.sendDouble(x);
+21143	dataTransmitter.sendDouble(x);
+21144	DataTransmitter.sendTwo(15.955,133);
+21145	dataTransmitter.sendTwo(15.955, 133);
+21146	Logger.printErrorDescription(14);
+21147	logger.printErrorDescription (14);
+21148	Logger.printLarger(sales1, sales2);
+21149	logger.printLarger (sales1, sales2);
+21150	eurasiaSales = Arithmetic.add(euroSales, asiaSales);
+21151	eurasiaSales = arithmetic.add(euroSales, asiaSales);
+21152	cubeVolume = IMath.toThePowerOf(cubeSide, 3);
+21153	Math.max(population1,population2)
+21154	Math.max(Math.max(population1, population2), (Math.max(population3, population4)))
+21156   public abstract class Window {private int width; private int height; public int getWidth(){return width;} public int getHeight(){return height;} public Window (int theWidth, int theHeight){width = theWidth; height = theHeight;} public abstract void paint();}
+21157   public abstract class Phone{private String phoneNumber; public Phone (String thePhoneNumber){phoneNumber = thePhoneNumber;} public String getPhoneNumber(){return phoneNumber;} public String toString(){phoneNumber = "#(" + phoneNumber + ")"; return phoneNumber;} public abstract boolean createConnection(Network status); public abstract void closeConnection();}
+21158   public abstract class Account{private static int nextId = 10001; private int id; private String name; public Account(String theName){name = theName; id = nextId; nextId++;} public int getId(){return id;} public String getName(){return name;} public abstract Cash getValue();}
+21160   abstract interface GUIComponent { public abstract void onClick(int a); public abstract void onCursorFocus(int a); public abstract boolean move(int a, int b); public abstract boolean move(Position a); public abstract boolean move(Dimension a); public abstract boolean resize(int a, int b);}
+21161   abstract interface CommDevice { public abstract boolean transmit(Destination a, String b); public abstract String receive(Duration a); }
+21162   abstract interface Account { public abstract boolean deposit(Cash a); public abstract boolean withdraw(Cash b);}
+21163   abstract interface ActionListener { public abstract void actionPerformed(ActionEvent e);}
+21165   public class Firewall implements CommDevice {private String permittedReceiver; private String buffer; public Firewall(String a) { permittedReceiver = a; } public void transmit(String a, String b) {buffer = b; System.out.print("Data scheduled for transmission to " + a + "\n");} public boolean receive(String a, String b) { if(a.equals(permittedReceiver)) { buffer = b; return true;} else { buffer = ""; System.out.print("Attempted breach of firewall by " + a + "\n"); return false;}}}
+21166   public class BankAccount implements Account {private int balance; public BankAccount(int a) {balance = a;} public int deposit(int a) {balance += a; return balance;} public boolean withdraw(int a) {if (a <= balance) {balance = balance - a; return true;} else {return false;}}}
+21167   public class GUIApplication implements ActionListener {private Document doc; public GUIApplication(Document a) { doc = a; } public void actionPerformed() {doc.save(); System.out.print("document saved\n");}}
+21168   new Exception()
+21169   Exception abend = new Exception( "ABEND 013");
+21170   new Exception("attempt limit exceeded: " + maxtries)
+21171   new Exception("too many errors: " + errorCount)
+21172   throw new Exception("does not compute");
+21173   throw dataFailure;
+21174   if(command==null){throw new Exception("null command");}
+21175   if (command == null) {throw new Exception("null command");} else if (command == "") {throw new Exception("empty command");}
+21176   System.out.println(e.getMessage());
+21177   msg = e.getMessage();
+21178   try {processor.process();} catch(Exception e) {System.out.print("process failure");}
+21179   try {processor.process();} catch(Exception e){};
+21181   try {processor.process();}catch(NumberFormatException e) {validData = false;}
+21182   try{processor.process();success = true;} catch(Exception e) {success = false;}
+21183   throw new IOException("really BAD data");
+21187   public void makeJunk() throws java.io.IOException{ new File("junk").createNewFile();}
+21189   try {processor.process();} catch (NumberFormatException nfe) {System.out.println("Bad Data");} catch (FileNotFoundException fnfe) {System.out.println("Data File Missing");} catch (Exception e) {System.out.println(e.getMessage());}
+21191	String logfileName;
+21192	PrintWriter output = new PrintWriter("text.txt");
+21193	new PrintWriter("output.txt")
+21194	new PrintWriter(output)
+21195	PrintWriter output = new PrintWriter("output.txt");
+21196	PrintWriter output = new PrintWriter(outfile);
+21197	output.print("Hello, World");
+21198	output.print(message);
+21199	output.close();
+21200	PrintWriter pw = new PrintWriter("greeting"); pw.println("Hello, World!"); pw.close();
+21201	PrintWriter pw = new PrintWriter(fileName); pw.println("This Is File: "+fileName); pw.close();
+21202	String a = new String(stdin.next()); String b = new String(stdin.next()); File f = new File(a); PrintWriter pw = new PrintWriter(f); pw.print(b); pw.close();
+21206	Scanner fileInput = new Scanner(new File("data1"));
+21208	line1 = stdin.nextLine();
+21209	File fileInput = new File("poem"); Scanner s = new Scanner(fileInput); line1 = s.nextLine();
+21210	int quotient(int m, int k) {if(k==1) return m;if(k>m) return 0;return quotient(m-k, k) +1;}
+21211	Scanner scan = new Scanner(new FileReader(file)); String newFileName = file + ".cpy"; PrintWriter cpyFile = new PrintWriter(newFileName); while (scan.hasNextLine()){cpyFile.write(scan.nextLine());} scan.close(); cpyFile.close();
+21212	total = 0; while(stdin.hasNextInt()){total += stdin.nextInt();}
+21213	count = 0; while(stdin.hasNext()){stdin.nextLine(); count++;}
+21214	while (stdin.hasNext()) {System.out.println(stdin.nextLine());}
+21216	count = 0; longest = 0; String myS = new String(); while(stdin.hasNext()){ myS = stdin.next(); if (myS.length() == longest) count ++; else if (myS.length() > longest) {longest = myS.length(); count = 1;}}
+21217	File f1 = new File(file1); File f2 = new File(file2); Scanner s1 = new Scanner(f1); Scanner s2 = new Scanner(f2); String sF3 = file1 + "-" + file2; File file3 = new File(sF3); PrintWriter output = new PrintWriter(file3); while (s1.hasNextLine()){output.println(s1.nextLine());output.println(s2.nextLine());}output.close();output.close();
+21222	public static boolean s2f(String s1, String s2){if(s2 == null)return false;try {File f = new File(s1);PrintWriter pw = new PrintWriter(f);pw.print(s2);pw.close();return true;} catch (Exception e){return false;}}
+21223	public static boolean f2f(String s1, String s2) {return s2f(s2, f2s(s1));}
+21224	int product(int m, int k) {if (k == 0){return 0;}if (k == 1){return m;}else if (k == 2){return (m + m);}else{return (product(m, k-1) + m);}}
+21225	String makeStars(int numberOfStars){if (numberOfStars == 0) return "";else return "*" + makeStars(numberOfStars - 1);}
+21226	String makeLine(int numberOfColons, char character){if (numberOfColons == 0) return "";else return character + makeLine(numberOfColons - 1, character);}
+21227   void printTriangle(int n){if(n==0)return;System.out.println(makeStars(n));printTriangle(n-1);}
+21228	void printTriangle(int n){if(n<1){return;}printTriangle(n-1);printStars(n);}
+21229   void printTriangle(int n, int k){if(n < 0)return;if(n % 2 == 0)n++;System.out.println(makeLine(k, ' ') + makeLine(n, 'O'));printTriangle(n-2, k+1);}
+21231   double harmonic(int n) {if(n == 1) {return 1.0;} else {return (1.0 / n) + harmonic(n - 1);}}
+21232   long oddevenfact(int x){if (x>2) return(oddevenfact(x-2) * (long) x);else return((long) x);}
+21233	void copy(Scanner in) { if (in.hasNext()) { System.out.println(in.next()); copy(in); }}
+21234	public int add(Scanner input) {int sum = input.nextInt();if (input.hasNextInt()) {sum=sum+add(input);}return sum;}
+21235	public static int count(Scanner input){if(input.hasNext()){input.next();return 1+count(input);}else return 0;}
+21236	public static int countPos(Scanner input){int count=0;int value;if(input.hasNextInt()){value=input.nextInt();count=countPos(input);if(value>0)count++;}else{return count;}return count;}
+21237	String makeStarBucks(int n){if(n == 0){return "";}else{return "*" + makeStarBucks(n - 1) + "$";}}
+21238	public static void copy(Scanner input){String word; if(!input.hasNext()){return;}else{word = input.next();copy(input);System.out.println(word);}}
+21239	void printPowerOfTwoStars(int n) {if (n == 0) {System.out.printf("*");} else{printPowerOfTwoStars (n-1); printPowerOfTwoStars (n-1);}}
+20715	duplicates=false; for(j=0; j<zipcodeList.length; j++) { for(k=0; k<zipcodeList.length; k++) { if ((j != k) && (zipcodeList[j]==zipcodeList[k])) { duplicates=true; }}}
+20920	!((x >= 'A' && x <= 'Z') || (x >= 'a' && x <= 'z'))

@@ -1,0 +1,103 @@
+60011   is a system where the user types in a command, hits return, and then waits until the command is finished
+60012   for accessing a remote computer, somewhere out there on the internet
+60013   clear
+60014   displays the content of a file byte by byte
+60015   grep
+60016   is a command-line argument that modifies the action of a command
+60017   to standard out
+60018   the keyboard
+60019   the display screen
+60020   typing control-D
+60021   when there are no command-line arguments
+60023   include the names in the command-line as arguments
+60025   $-1
+60026   when there are no command-line arguments
+60027   when there are no command-line arguments
+60028   when there are no command-line arguments
+60029   when there are no command-line arguments
+60031   folders
+60032   .. (two dots)
+60033   cd
+60034   increase its length by five characters
+60036   any of the above
+60037   i
+60038   +
+60039   space-bar
+60040   L
+60041   wwxab(ESC)
+60042   hhx
+60043   234
+60044   27
+60045   21 22 27 28 29
+60046   81
+60047   90
+60048   It aunt [uuu] a urume
+60049   Buy IBM typewriters. (What's a typewriter?)
+60050   Deletes the first two characters of every line that ends in xx
+60051   wwaxb(ESC)
+60052   Buy IBM typewriters. (What's a typewriter?)
+60053	It allows us to express an algorithm
+60055	Machine languages can be used to write programs that can run on any machine
+60098	None of the above
+60106	7thheaven
+60108	____________
+60110	monthlyPay
+60114	4
+60118	reserved
+60120	main
+60122	declared
+60123	An exception will be thrown when that statement is executed
+60124	999
+60125	int twoPi = 3.14159; /* holds the value of two times pi */
+60126	-6
+60127	int volume; // size of trunk in cubic feet
+60129	for loop
+60130	while loop
+60134	19 is printed, v ends up with 20
+60135   add
+60136   CPU
+60137   memory
+60138   on a disk
+60139   200M
+60140   allocates resources like memory to programs that are running
+60141   is any software that is runs with the support of the operation system
+60142   server
+60143   is zero or one
+60145   11
+60146   101
+60147   0
+60148   1
+60149   21
+60150   F
+60151   0101
+60152   0111
+60153   BEEF00D
+60154   Unicode
+60158   sequential
+60159   information provided to a method
+60160   calling
+60164   Javac
+60165   java
+60166   output
+60167   input
+60169   compile
+60170   Runtime
+60171   an instruction
+60172   address
+60173   you can pick any two random locations and it will take the same time to access the data.
+60174   binary digit, like 0 or 1.
+60175   external
+60176	portability
+60177	source
+60179   syntax
+60180   keywords
+60183   logical
+60208	a circumstance that a programmer chooses to handle outside the code that handles "normal cases"
+60209	an object
+60210	recognize an exception, create an Exception, throw the Exception, detect the Exception, handle the exception
+60211	throws IOException
+60212	throws IOException, WidgetException
+60214	checked
+60215	unchecked
+60216	Throwable
+60217	error

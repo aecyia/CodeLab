@@ -1,0 +1,2 @@
+00332	false
+00333	Both isEmpty and isFull are false
