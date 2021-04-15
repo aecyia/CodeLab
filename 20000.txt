@@ -350,8 +350,13 @@
 20937	choice=stdin.next(); if (choice.equals("S")){if(age<=21) System.out.println("vegetable juice"); else System.out.println("cabernet");} else if (choice.equals("T")){if(age<=21) System.out.println("cranberry juice"); else System.out.println("chardonnay");} else if (choice.equals("B")){if(age<=21) System.out.println("soda"); else System.out.println("IPA");} else System.out.println("invalid menu selection");
 20938	areaOfSquare=stdin.nextDouble(); if(areaOfSquare<0) System.out.println("INVALID"); else System.out.println(Math.sqrt(areaOfSquare));
 20939	callsReceived=stdin.nextInt(); operatorsOnCall=stdin.nextInt(); if (operatorsOnCall==0) System.out.println("INVALID"); else System.out.println(callsReceived/operatorsOnCall);
+20940	response=stdin.nextInt(); switch(response) { case 1: yesCount++; System.out.println("YES WAS RECORDED"); break; case 2: yesCount++; System.out.println("YES WAS RECORDED"); break; case 3: noCount++; System.out.println("NO WAS RECORDED"); break; case 4: noCount++; System.out.println("NO WAS RECORDED"); break; default: System.out.println("INVALID");}
+20941	recalled = ((modelYear >= 1995 && modelYear <= 1998) || (modelYear >= 2004 && modelYear <= 2006));
+20942	norecall = !((modelYear >= 1995 && modelYear <= 1998) || (modelYear >= 2004 && modelYear <= 2006));
 20943	if (modelYear >= 2001 && modelYear <= 2006) System.out.println("RECALL");
+20944	recalled = (modelYear >= 2001 && modelYear <= 2006);
 20945	if (modelYear < 2001 || modelYear > 2006) System.out.println("NO RECALL");
+20946	norecall = (!(modelYear >= 2001 && modelYear <= 2006));
 20947   public class ICalculator1 extends ICalculator { public int sign() {if(super.getCurrentValue() == 0) return 0; else if (super.getCurrentValue() < 0) return -1; else return 1;}}
 20948   public class ICalculator2 extends ICalculator {public int negate() {currentValue = -currentValue; return currentValue;}}
 20949   public class ICalculator3 extends ICalculator {public int div(int x) {if (x!=0) return super.div(x); System.out.println("ZERO DIVIDE ATTEMPTED"); return getCurrentValue();}}
