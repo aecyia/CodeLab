@@ -207,6 +207,7 @@
 20712	for (k=0;k<a.length/2;k++){temp=a[k]; a[k]=a[a.length-1-k]; a[a.length-1-k]=temp;}
 20713	for(k=0,isAMember=false; k<currentMembers.length && !isAMember; isAMember=(currentMembers[k++]==memberID));
 20714	duplicates=false; for(k=0;k<zipcodeList.length-1;k++){if(zipcodeList[k]==zipcodeList[k+1])duplicates=true;}
+20715	duplicates=false; for(j=0; j<zipcodeList.length; j++) { for(k=0; k<zipcodeList.length; k++) { if ((j != k) && (zipcodeList[j]==zipcodeList[k])) { duplicates=true; }}}
 20716	for(numberOfIncompletes=0,k=0;k<incompletes.length;k++) if (incompletes[k]==studentID) numberOfIncompletes++;
 20717	if(x>y) max=x; else max=y;
 20718	public int max (int a, int b, int c){ return Math.max(a,Math.max(b, c));}
@@ -327,6 +328,7 @@
 20898	x >= 48 && x <= 55
 20899	((x >= 'A' && x <= 'Z') || (x >= 'a' && x <= 'z'))
 20901	((x >= '0') && (x <= '9')) || ((x >= 'a') && (x <= 'f')) || ((x >= 'A') && (x <= 'F'))
+20920	!((x >= 'A' && x <= 'Z') || (x >= 'a' && x <= 'z'))
 20947   public class ICalculator1 extends ICalculator { public int sign() {if(super.getCurrentValue() == 0) return 0; else if (super.getCurrentValue() < 0) return -1; else return 1;}}
 20948   public class ICalculator2 extends ICalculator {public int negate() {currentValue = -currentValue; return currentValue;}}
 20949   public class ICalculator3 extends ICalculator {public int div(int x) {if (x!=0) return super.div(x); System.out.println("ZERO DIVIDE ATTEMPTED"); return getCurrentValue();}}
@@ -482,5 +484,3 @@
 21237	String makeStarBucks(int n){if(n == 0){return "";}else{return "*" + makeStarBucks(n - 1) + "$";}}
 21238	public static void copy(Scanner input){String word; if(!input.hasNext()){return;}else{word = input.next();copy(input);System.out.println(word);}}
 21239	void printPowerOfTwoStars(int n) {if (n == 0) {System.out.printf("*");} else{printPowerOfTwoStars (n-1); printPowerOfTwoStars (n-1);}}
-20715	duplicates=false; for(j=0; j<zipcodeList.length; j++) { for(k=0; k<zipcodeList.length; k++) { if ((j != k) && (zipcodeList[j]==zipcodeList[k])) { duplicates=true; }}}
-20920	!((x >= 'A' && x <= 'Z') || (x >= 'a' && x <= 'z'))
