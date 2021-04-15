@@ -241,6 +241,7 @@
 20752   public class HighSchoolStudent extends Student {public HighSchoolStudent(String school){super(school);} public String toString(){return "high school " + super.toString();}}
 20755   abstract interface PointingDevice {public abstract int getXCoord();public abstract int getYCoord();public abstract boolean attentionRequired();public abstract double setResolution(double a);}
 20756	if((n%2==0 && n>2)||(n<=0)) possibleCandidate=false; else possibleCandidate=true;
+20757	String s3 = s1; s1=s2; s2=s3;
 20758	avg=(double)(num1+num2+num3)/3;
 20759	String[] week = {"mon", "tue", "wed", "thu", "fri", "sat", "sun"};
 20760   public class Value{private boolean modified = false;private int val;public Value(int theVal){val = theVal;}public int getVal(){return val;}public void setVal(int theVal){val = theVal;modified = true;}public boolean wasModified(){return modified;}}
