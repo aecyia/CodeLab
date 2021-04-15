@@ -340,7 +340,14 @@
 20927	if(gpa>3.5) {deansList +=1; System.out.println(studentName);}
 20928	if (isIsosceles == true) {isoCount +=1; triangleCount += 1; polygonCount +=1;}
 20929	if (speed<0) reverseDrivers +=1; else if (speed<1) parkedDrivers +=1; else if (speed<40) slowDrivers +=1; else if (speed<=65) safeDrivers+=1; else speeders +=1;
+20930	if (score1>score2){System.out.print("player1 wins"); player1Wins+=1; player2Losses +=1;} else if (score2>score1){System.out.print("player2 wins"); player1Losses +=1; player2Wins +=1;} else {System.out.print("tie"); tieCount +=1;}
+20931	freeBooks = 0; if (isPremiumCustomer == true){ if (nbooksPurchased >= 5) freeBooks = 1; if (nbooksPurchased >= 8) freeBooks = 2;} else if (isPremiumCustomer == false){ if (nbooksPurchased >= 7) freeBooks = 1; if (nbooksPurchased >= 12) freeBooks = 2;}
 20932	if ((modelYear >= 1995 && modelYear <= 1998) || (modelYear >= 2004 && modelYear <= 2006)) System.out.println("RECALL");
+20933	if (modelYear >= 1999&&modelYear<=2002){if(modelName.equals("Extravagant")) System.out.println("RECALL");}
+20934	if(modelName.equals("Extravagant") && modelYear >= 1999 && modelYear <= 2002) recalled = true; else recalled = false;
+20935	if (modelName.equals("Extravagant")){if (modelYear>=1999 && modelYear<=2002) System.out.println("RECALL");} if (modelName.equals("Guzzler")){if (modelYear>=2004 && modelYear <=2007) System.out.println("RECALL");}
+20936	if((modelYear>=1999&&modelYear<=2002&&modelName.equals("Extravagant")) || (modelYear>=2004&&modelYear<=2007&&modelName.equals("Guzzler"))){recalled=true;} else recalled=false;
+20937	choice=stdin.next(); if (choice.equals("S")){if(age<=21) System.out.println("vegetable juice"); else System.out.println("cabernet");} else if (choice.equals("T")){if(age<=21) System.out.println("cranberry juice"); else System.out.println("chardonnay");} else if (choice.equals("B")){if(age<=21) System.out.println("soda"); else System.out.println("IPA");} else System.out.println("invalid menu selection");
 20938	areaOfSquare=stdin.nextDouble(); if(areaOfSquare<0) System.out.println("INVALID"); else System.out.println(Math.sqrt(areaOfSquare));
 20939	callsReceived=stdin.nextInt(); operatorsOnCall=stdin.nextInt(); if (operatorsOnCall==0) System.out.println("INVALID"); else System.out.println(callsReceived/operatorsOnCall);
 20943	if (modelYear >= 2001 && modelYear <= 2006) System.out.println("RECALL");
