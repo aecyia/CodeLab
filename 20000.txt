@@ -330,6 +330,7 @@
 20901	((x >= '0') && (x <= '9')) || ((x >= 'a') && (x <= 'f')) || ((x >= 'A') && (x <= 'F'))
 20920	!((x >= 'A' && x <= 'Z') || (x >= 'a' && x <= 'z'))
 20927	if(gpa>3.5) {deansList +=1; System.out.println(studentName);}
+20932	if ((modelYear >= 1995 && modelYear <= 1998) || (modelYear >= 2004 && modelYear <= 2006)) System.out.println("RECALL");
 20938	areaOfSquare=stdin.nextDouble(); if(areaOfSquare<0) System.out.println("INVALID"); else System.out.println(Math.sqrt(areaOfSquare));
 20939	callsReceived=stdin.nextInt(); operatorsOnCall=stdin.nextInt(); if (operatorsOnCall==0) System.out.println("INVALID"); else System.out.println(callsReceived/operatorsOnCall);
 20943	if (modelYear >= 2001 && modelYear <= 2006) System.out.println("RECALL");
