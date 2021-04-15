@@ -332,6 +332,7 @@
 20927	if(gpa>3.5) {deansList +=1; System.out.println(studentName);}
 20938	areaOfSquare=stdin.nextDouble(); if(areaOfSquare<0) System.out.println("INVALID"); else System.out.println(Math.sqrt(areaOfSquare));
 20939	callsReceived=stdin.nextInt(); operatorsOnCall=stdin.nextInt(); if (operatorsOnCall==0) System.out.println("INVALID"); else System.out.println(callsReceived/operatorsOnCall);
+20943	if (modelYear >= 2001 && modelYear <= 2006) System.out.println("RECALL");
 20947   public class ICalculator1 extends ICalculator { public int sign() {if(super.getCurrentValue() == 0) return 0; else if (super.getCurrentValue() < 0) return -1; else return 1;}}
 20948   public class ICalculator2 extends ICalculator {public int negate() {currentValue = -currentValue; return currentValue;}}
 20949   public class ICalculator3 extends ICalculator {public int div(int x) {if (x!=0) return super.div(x); System.out.println("ZERO DIVIDE ATTEMPTED"); return getCurrentValue();}}
