@@ -360,6 +360,12 @@
 20988	price / 100
 20990	price % 100
 20991	System.out.println(price/100 + " dollars and " + price % 100 + " cents");
+20992	x % 10
+21010	Math.sqrt(area)
+21011	Math.sqrt(area*2)
+21012	Math.sqrt(Math.pow(length,2) + Math.pow(width,2))
+21013	Math.sqrt(Math.pow(a,2) + Math.pow(b,2))
+21014	Math.sqrt(Math.sqrt(x))
 21040	tictactoe[0][0] == tictactoe[1][0] && tictactoe[1][0] == tictactoe[2][0]
 21041	tictactoe[0][0] == tictactoe[1][1] && tictactoe[1][1] == tictactoe[2][2]
 21042	tictactoe[2][0] == tictactoe[1][1] && tictactoe[1][1] == tictactoe[0][2]
@@ -486,4 +492,3 @@
 21237	String makeStarBucks(int n){if(n == 0){return "";}else{return "*" + makeStarBucks(n - 1) + "$";}}
 21238	public static void copy(Scanner input){String word; if(!input.hasNext()){return;}else{word = input.next();copy(input);System.out.println(word);}}
 21239	void printPowerOfTwoStars(int n) {if (n == 0) {System.out.printf("*");} else{printPowerOfTwoStars (n-1); printPowerOfTwoStars (n-1);}}
-20992	x % 10
