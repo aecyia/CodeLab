@@ -331,7 +331,15 @@
 20899	((x >= 'A' && x <= 'Z') || (x >= 'a' && x <= 'z'))
 20901	((x >= '0') && (x <= '9')) || ((x >= 'a') && (x <= 'f')) || ((x >= 'A') && (x <= 'F'))
 20920	!((x >= 'A' && x <= 'Z') || (x >= 'a' && x <= 'z'))
+20921	if (numberOfSides == 4) isQuadrilateral = true; else isQuadrilateral = false;
+20922	if (hoursWorked > 40) workedOvertime = true; else workedOvertime = false;
+20923	(month == 1) ? "jan" : (month == 2) ? "feb" : (month == 3) ? "mar" : (month == 4) ? "apr" : (month == 5) ? "may" : (month == 6) ? "jun" : (month == 7) ? "jul" : (month == 8) ? "aug" : (month == 9) ? "sep" : (month == 10) ? "oct" : (month == 11) ? "nov" : (month == 12) ? "dec" : null
+20924	(credits<30)?"freshman":(credits>=30&&credits<60)?"sophomore":(credits>=60&&credits<90)?"junior":"senior"
+20925	switch(age){ case 0: case 1: System.out.println("ineligible"); break; case 2: System.out.println("toddler"); break; case 3: case 4: case 5: System.out.println("early childhood"); break; case 6: case 7: System.out.println("young reader"); break; case 8: case 9: case 10: System.out.println("elementary"); break; case 11: case 12: System.out.println("middle"); break; case 13: System.out.println("impossible"); break; case 14: case 15: case 16: System.out.println("high school"); break; case 17: case 18: System.out.println("scholar"); break; default: System.out.println("ineligible");}
+20926	switch(status){case 200: System.out.print("OK (fulfilled)"); break; case 403: System.out.print("forbidden"); break; case 404: System.out.print("not found"); break; case 500: System.out.print("server error"); break;}
 20927	if(gpa>3.5) {deansList +=1; System.out.println(studentName);}
+20928	if (isIsosceles == true) {isoCount +=1; triangleCount += 1; polygonCount +=1;}
+20929	if (speed<0) reverseDrivers +=1; else if (speed<1) parkedDrivers +=1; else if (speed<40) slowDrivers +=1; else if (speed<=65) safeDrivers+=1; else speeders +=1;
 20932	if ((modelYear >= 1995 && modelYear <= 1998) || (modelYear >= 2004 && modelYear <= 2006)) System.out.println("RECALL");
 20938	areaOfSquare=stdin.nextDouble(); if(areaOfSquare<0) System.out.println("INVALID"); else System.out.println(Math.sqrt(areaOfSquare));
 20939	callsReceived=stdin.nextInt(); operatorsOnCall=stdin.nextInt(); if (operatorsOnCall==0) System.out.println("INVALID"); else System.out.println(callsReceived/operatorsOnCall);
