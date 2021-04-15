@@ -486,3 +486,4 @@
 21237	String makeStarBucks(int n){if(n == 0){return "";}else{return "*" + makeStarBucks(n - 1) + "$";}}
 21238	public static void copy(Scanner input){String word; if(!input.hasNext()){return;}else{word = input.next();copy(input);System.out.println(word);}}
 21239	void printPowerOfTwoStars(int n) {if (n == 0) {System.out.printf("*");} else{printPowerOfTwoStars (n-1); printPowerOfTwoStars (n-1);}}
+20992	x % 10
