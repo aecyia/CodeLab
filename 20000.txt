@@ -358,6 +358,8 @@
 20986	hn + 1.0/(n+1)
 20987   (double) children / families
 20988	price / 100
+20990	price % 100
+20991	System.out.println(price/100 + " dollars and " + price % 100 + " cents");
 21040	tictactoe[0][0] == tictactoe[1][0] && tictactoe[1][0] == tictactoe[2][0]
 21041	tictactoe[0][0] == tictactoe[1][1] && tictactoe[1][1] == tictactoe[2][2]
 21042	tictactoe[2][0] == tictactoe[1][1] && tictactoe[1][1] == tictactoe[0][2]
