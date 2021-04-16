@@ -395,6 +395,14 @@
 20996	for (int count = 50; count >= 1; count-= 1) System.out.print(count + " ");
 20997	for (int i = 80; i >= 20; i -= 2) System.out.print(i + " ");
 20998	for (int count = 1; count < 200; count ++){ if (count % 2 == 0) {if (count % 3 == 0) System.out.print(count + " ");}}
+21000	do n = stdin.nextInt(); while (n>10 || n<1);
+21002	int n = 0; while (stdin.hasNextInt() && n >= 0) {n = stdin.nextInt(); if (n>100) System.out.print(n + " ");}
+21003	int  n = 1; while (stdin.hasNextInt() && n > 0) {n = stdin.nextInt(); if (n % 2 == 0 && n > 0) System.out.print(n + " ");}
+21004	int x = 1; int y = 0; while (stdin.hasNextInt() && x > 0) {x = stdin.nextInt(); if (x % 2 == 0 && x > 0) y = y + x;} System.out.println(y);
+21005	int n = 1; int d = 0; int e = 0; while (stdin.hasNextInt() && n > 0){ n = stdin.nextInt(); if (n % 2 == 0 && n > 0) e = e + n; if (n % 2 != 0 && n > 0) d = d + n;} System.out.println(e + " " + d);
+21006	int n = 1; int oT, eT, oC, eC; oT = eT = oC = eC = 0; while(stdin.hasNextInt() && n > 0) {n = stdin.nextInt(); if (n % 2 == 0 && n > 0){eT += n; eC +=1;} if (n % 2 != 0 && n > 0) {oT += n; oC += 1;}} System.out.println(eT + " " + oT + " " + eC + " " + oC);
+21007	int land = 0, air = 0, water = 0; String x = new String(); while (!(x.equals("xxxxx"))) { x = stdin.next(); if (x.equals("land")) land++; else if (x.equals("air")) air++; else if (x.equals("water")) water++;} System.out.println("land:" + land); System.out.println("air:" + air); System.out.println("water:" + water);
+21008	int x, y = -1, z = 0; x = stdin.nextInt(); while(stdin.hasNextInt() && x >= 0) { if (x == y) {z++;} else y = x; x = stdin.nextInt();} System.out.println(z);
 21010	Math.sqrt(area)
 21011	Math.sqrt(area*2)
 21012	Math.sqrt(Math.pow(length,2) + Math.pow(width,2))
